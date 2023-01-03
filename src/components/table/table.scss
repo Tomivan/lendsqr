@@ -1,0 +1,43 @@
+.table{
+    position: absolute;
+    left: 22%;
+    top: 50%;
+    width: 72vw;
+    border-radius: 5px;
+    padding: 1em;
+    box-shadow: 1px 5px 10px rgba(0,0,0,0.1);
+    overflow-x: scroll;
+}
+th, td{
+   padding: 0.5em;
+   width: 18%;
+   text-align: left;
+}
+td{
+    border-bottom: 1px solid #0000001e;
+}
+.filter{
+    padding-left: 0.5em;
+}
+.none {
+    display: none;
+}
+.box{
+    position: absolute;
+    margin: 4% 0 0 -18%;
+    width: 10vw;
+    padding: 1em;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px rgba(0,0,0,0.1);
+}
+.box-image{
+    padding-right: 0.5em;
+}
+@media only screen and (max-width: 768px) {
+    .table{
+        margin-top: 40%;
+        left: 5%;
+        width: 85vw;
+    }
+}

@@ -1,0 +1,22 @@
+.sidebar{
+    padding: 1em;
+    width: 15vw;
+    box-shadow: 1px 5px 10px rgba(0,0,0,0.1);
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding: 0.5em;
+}
+.sidebar-icon{
+    margin-right: 5%;
+}
+.sidebar p{
+    padding-top: 2em;
+}
+@media only screen and (max-width: 768px) {
+    .sidebar{
+        display: none;
+    }
+}

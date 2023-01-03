@@ -1,0 +1,53 @@
+.form-component{
+    margin: 10% 0 0 10%;
+    h1{
+        color: #213F7D;
+        font-size: 40px;
+    }
+    p{
+        margin-top: -3%;
+    }
+    .form{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        height: 5vh;
+        width: 30vw;
+        margin-bottom: 3%;
+        border: 1px solid #0000001e;
+        border-radius: 5px;
+    }
+    input::placeholder{
+        padding-left: 1em;
+        color: #545F7D;
+    }
+    span{
+        color: #39cdcc;
+        position: relative;
+        left: -12%;
+        font-size: 12px;
+    }
+    .link{
+        color: #39cdcc;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .login-button{
+        background: #39cdcc;
+        color: #ffffff;
+        height: 5vh;
+        width: 30vw;
+        border: none;
+        border-radius: 5px;
+        margin-top: 5%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .form-component{
+        input, .login-button{
+            width: 70vw;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.users-card{
+    display: flex;
+    position: absolute;
+    left: 22%;
+    top: 18%;
+}
+.card{
+    height: 20vh;
+    width: 16.5vw;
+    border-radius: 5px;
+    margin-right: 2%;
+    padding: 1em;
+    box-shadow: 1px 5px 10px rgba(0,0,0,0.1);
+}
+.card p{
+    color: #21357d;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+    .users-card{
+        left: 5%;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 35vw;
+    }
+}

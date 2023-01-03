@@ -1,0 +1,44 @@
+.filter{
+    .form{
+        position: absolute;
+        margin: 5% 0 0 -15%;
+        width: 10vw;
+        padding: 1em;
+        background: #ffffff;
+        border-radius: 5px;
+        box-shadow: 1px 5px 10px rgba(0,0,0,0.1);
+        z-index: 10;
+    }
+    input, select{
+        width: 10vw;
+    }
+    select{
+        height: 5vh;
+        margin-bottom: 3%;
+        border: 1px solid #0000001e;
+        border-radius: 5px;
+    }
+    .buttons{
+        display: flex;
+        margin-top: 5%;
+    }
+    .reset{
+        height: 5vh;
+        width: 5vw;
+        padding: 0.5em;
+        margin-right: 2%;
+        background: none;
+        border: 1px solid #545f7D;
+        color: #545f7D;
+        border-radius: 5px;
+    }
+    .filter{
+        height: 5vh;
+        width: 5vw;
+        padding: 0.5em;
+        background: #39cdcc;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+    }
+}

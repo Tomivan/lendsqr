@@ -1,0 +1,22 @@
+.login-page{
+    display: flex;
+    padding: 1em;
+}
+.login-left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.logo{
+    height: 5vh;
+    position: absolute;
+    left: 4%;
+}
+.login-image{
+   margin-top: 20%;
+}
+@media only screen and (max-width: 768px) {
+    .login-page{
+        flex-direction: column;
+    }
+}
